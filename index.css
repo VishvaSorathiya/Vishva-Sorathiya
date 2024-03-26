@@ -1,0 +1,227 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: fit-content;
+    height: fit-content;
+    position:fixed;
+
+}
+.btn
+{
+    border: solid rgb(102, 0, 255);
+}
+
+nav {
+    width: fit-content;
+    height: fit-content;
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+}
+
+.top {
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    margin: 0 23px;
+
+}
+
+.firstsection {
+    padding-top: 7rem;
+    padding-bottom: 14rem;
+    margin-left: 25rem;
+    margin-right: 0;
+}
+
+
+.secondsection {
+    height: fit-content;
+    padding-top: 9rem;
+    padding-bottom: 22rem;
+    margin-left: 24rem;
+    margin-right: 0;
+}
+.secondsection .second{
+    color: aqua;
+    margin-left: 14rem;
+}
+
+.secondsection .box {
+    display: flex;
+    background: white;
+    height: 2px;
+    width: fit-content;
+    margin: 54px 0;
+}
+
+.secondsection .vertical {
+    height: 90px;
+    width: 1px;
+    background: white;
+    margin: 0 100px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    margin-left: -1rem;
+}
+
+.vertical-text {
+    position: relative;
+    top: 100px;
+    color: white;
+    width: 150px;
+    font-size: 9px;
+    margin-left: -1rem;
+    border: solid white;
+}
+
+img {
+    position: relative;
+    width: 23px;
+    top: -2rem;
+    left: -1rem;
+
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    height: fit-content;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer>div {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.thirdsection {
+    height: fit-content;
+    padding-top: 11rem;
+    padding-bottom: 10rem;
+    margin-left: 7rem;
+}
+
+.thirdsection h2 {
+    padding-bottom: 3rem;
+    margin-left: 33rem;
+    color: aqua;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-layer1 {
+    border: solid blue;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    width: 25rem;
+    margin-left: 4rem;
+}
+.portfolio-layer1 h4{
+    font-size: 1rem;
+    color: aqua;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    
+}
+.portfolio-layer2 h4{
+    font-size: 1rem;
+    color: aqua;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+}
+.portfolio-layer1 p{
+    padding-bottom: 1rem;
+}
+
+.portfolio-layer2 p{
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+
+.portfolio-layer2 {
+    border: solid blue;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    width: 25rem;
+    
+}
+
+.fourthsection h2 {
+    margin-bottom: 1rem;
+   padding-top: -1rem;
+    margin-left:10rem;
+}
+
+.fourthsection{
+    margin-left: 29rem;
+    padding-top: -14rem;
+}
+
+.fourthsection form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.fourthsection form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fourthsection form .input-box input,
+.fourthsection form textarea {
+    
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--snd-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+    height: 3px;
+}
+.fourthsection form textarea{
+    margin-left: -22rem;
+    width: 400px;
+    height: 3px;
+    text-align: left;
+}
+
+.fourthsection form .input-box input {
+    width: 49%;
+}
+
+.fourthsection form textarea {
+    resize: none;
+}
+
+.fourthsection  .btn {
+    display: flex ;
+    cursor: pointer;
+    color: aqua;
+    border-radius: 3cm;
+    background-color: black;
+    margin-left: 10rem;
+    width: fit-content;
+}
